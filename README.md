@@ -1,7 +1,7 @@
 ## DONATION FOLLOWUP SMART CONTRACT
 Near implementation of donation followup system 
 
-The donation followup is to ensure make delivery of resource to the intended beneficially 
+The donation followup is to ensure make delivery of resource to the intended beneficially , this is by revealing the current person/organisation in possesion of the the donation.
 
 # REQUIRED SOFTWARE
 
