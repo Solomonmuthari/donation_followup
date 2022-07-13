@@ -139,4 +139,14 @@ mod tests {
         assert_eq!(1, contract.followups.len())
 
     }
+    #[test]
+    fn follow_donation(){
+    let mut contract = Contract::default();
+    contract.new_donation("joe" .to_string(), 12345, "abc@gmail.com" .to_string(), "wema fundation" .to_string(), 54321, "info@wema.co.ke" .to_string(),
+        "ann" .to_string(), "JKUAT" .to_string(), 67890, "info@JKUAT.ac.ke" .to_string(), (10-2-2020) .to_string() );
+        contract.release(1, "ann".to_string());
+        contract.follow_donation(1, 12345, "ann".to_string());
+        assert_eq!(2, contract.batches.clone(),)
+    }
+
 }
